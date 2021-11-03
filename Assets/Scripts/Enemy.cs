@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField]
     int health = 80;
-    int currentHealth;
+    public int currentHealth;
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         //currentHealth = maxHealth;
-        player = GameObject.FindGameObjectWithTag("Player ").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         timeBtwShots = starTimeBtwShots;
     }
     void Update()
