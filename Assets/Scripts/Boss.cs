@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -39,6 +40,8 @@ public class Boss : MonoBehaviour
     float minDistance;
     Quaternion rot;
     bool disparoArea = false;
+    public Animator transitionAnim;
+    public string sceneName;
     // Start is called before the first frame update
     void Start()
     {
@@ -140,8 +143,15 @@ public class Boss : MonoBehaviour
             Destroy(collision.gameObject);
             if (health <= 0)
             {
-                Destroy(gameObject);
+                SceneManager.LoadScene(sceneName);
+                StartCoroutine(LoadScene());
             }
         }
+    }
+    IEnumerator LoadScene()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(sceneName);
     }
 }
