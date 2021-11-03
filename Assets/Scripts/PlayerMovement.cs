@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -52,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
             Destroy(collision.gameObject);
             if (health <= 0)
             {
-                Destroy(gameObject);
+                SceneManager.LoadScene("GameOver");
             }
 
         }

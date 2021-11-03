@@ -14,7 +14,10 @@ public class Shooting : MonoBehaviour
     private float _canFire = 0.0f;
     public AudioSource SoundShoot;
     public Animator BallestaMovent;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 610c6a5db1a5110ffb960f4bdd3d1ff3dfadc3c2
 
     // Update is called once per frame
     void Update()
@@ -36,7 +39,10 @@ public class Shooting : MonoBehaviour
             SoundShoot.Play();
             BallestaMovent = GetComponent<Animator>();
             BallestaMovent.SetTrigger("DisparoBallesta");
+<<<<<<< HEAD
          
+=======
+>>>>>>> 610c6a5db1a5110ffb960f4bdd3d1ff3dfadc3c2
         }
 
 

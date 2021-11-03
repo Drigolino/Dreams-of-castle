@@ -19,6 +19,7 @@ public class Ai2 : MonoBehaviour
     bool StayFollow = false;
     [SerializeField]
     int health = 100;
+    //SpriteRenderer spriteRender;
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -40,7 +41,7 @@ public class Ai2 : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, target.position) > stopingDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);           
         }
         else 
         {
