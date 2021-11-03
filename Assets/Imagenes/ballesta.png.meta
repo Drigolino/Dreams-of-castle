@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 248d104199291ea46af338c91353b534
+guid: 010c23d1ae8595648b4d81d9236b24bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6438453702176176061
-    second: ballesta_0
+      213: 6472372335258757333
+    second: Ballesta_0
   - first:
-      213: -8265778768190422232
-    second: ballesta_1
+      213: 7695381442603139823
+    second: Ballesta_1
   - first:
-      213: 870236641719474474
-    second: ballesta_2
+      213: 9026818932964199492
+    second: Ballesta_2
   - first:
-      213: -7787535287319478181
-    second: ballesta_3
+      213: 7880895731609218424
+    second: Ballesta_3
   - first:
-      213: 4795627856978507244
-    second: ballesta_4
+      213: 3588548651170593875
+    second: Ballesta_4
   - first:
-      213: 6542234317261715725
-    second: ballesta_5
+      213: 3759154638145853495
+    second: Ballesta_5
   - first:
-      213: 6335785301764767221
-    second: ballesta_6
+      213: 8411398031089478563
+    second: Ballesta_6
   - first:
-      213: -7096259101489100928
-    second: ballesta_7
+      213: 4484687417500171571
+    second: Ballesta_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -107,23 +107,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ballesta_0
+      name: Ballesta_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3488df2687406a6a0800000000000000
-      internalID: -6438453702176176061
+      spriteID: 5d8e929c85c72d950800000000000000
+      internalID: 6472372335258757333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ballesta_1
+      name: Ballesta_1
       rect:
         serializedVersion: 2
         x: 143
@@ -158,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8234b0a110e0a4d80800000000000000
-      internalID: -8265778768190422232
+      spriteID: fe24e7176ac7bca60800000000000000
+      internalID: 7695381442603139823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ballesta_2
+      name: Ballesta_2
       rect:
         serializedVersion: 2
         x: 286
@@ -179,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a29d73c6d93b31c00800000000000000
-      internalID: 870236641719474474
+      spriteID: 44c0a1f4ef3b54d70800000000000000
+      internalID: 9026818932964199492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ballesta_3
+      name: Ballesta_3
       rect:
         serializedVersion: 2
         x: 429
@@ -200,14 +188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b50c0839aed1de390800000000000000
-      internalID: -7787535287319478181
+      spriteID: 87da572c9e09e5d60800000000000000
+      internalID: 7880895731609218424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ballesta_4
+      name: Ballesta_4
       rect:
         serializedVersion: 2
         x: 572
@@ -221,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce5fb2aa02e7d8240800000000000000
-      internalID: 4795627856978507244
+      spriteID: 35cfa3c3cf51dc130800000000000000
+      internalID: 3588548651170593875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ballesta_5
+      name: Ballesta_5
       rect:
         serializedVersion: 2
         x: 715
@@ -242,14 +230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0931c5037faaca50800000000000000
-      internalID: 6542234317261715725
+      spriteID: 738127ef9333b2430800000000000000
+      internalID: 3759154638145853495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ballesta_6
+      name: Ballesta_6
       rect:
         serializedVersion: 2
         x: 858
@@ -263,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fd74dcd92b3de750800000000000000
-      internalID: 6335785301764767221
+      spriteID: 3ab228b91f94bb470800000000000000
+      internalID: 8411398031089478563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ballesta_7
+      name: Ballesta_7
       rect:
         serializedVersion: 2
         x: 1001
@@ -284,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0870c9dd1f5058d90800000000000000
-      internalID: -7096259101489100928
+      spriteID: 33df2c0027fcc3e30800000000000000
+      internalID: 4484687417500171571
       vertices: []
       indices: 
       edges: []
